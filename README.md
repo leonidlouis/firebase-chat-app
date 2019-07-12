@@ -3,7 +3,7 @@
 A very **basic** clone of Slack.
 Created purely to demonstrate an implementation of Firebase' [Firestore](https://firebase.google.com/docs/firestore) to provide a fluid, real-time chat experience.
 
-Currently LIVE at mockchat.utopia.id ::smiley::
+Currently LIVE at [mockchat.utopia.id](https://mockchat.utopia.id) :smiley:
 
 Made possible by [reedbarger's amazing udemy course](https://www.udemy.com/build-a-slack-chat-app-with-react-redux-and-firebase/).
 
