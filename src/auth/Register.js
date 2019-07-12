@@ -200,6 +200,15 @@ class Register extends Component {
           <Message>
             Already a user? <Link to="/login">Login</Link>
           </Message>
+          <Message>
+            Created with the help of{" "}
+            <a
+              href="https://www.udemy.com/build-a-slack-chat-app-with-react-redux-and-firebase/"
+              target="blank"
+            >
+              Reed Barger's Udemy Course
+            </a>
+          </Message>
         </Grid.Column>
       </Grid>
     );
