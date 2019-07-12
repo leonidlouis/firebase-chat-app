@@ -64,7 +64,6 @@ class Login extends Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="violet" textAlign="center">
-            <Icon name="code branch" color="violet" />
             Login to MockChat
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
@@ -112,6 +111,15 @@ class Login extends Component {
           )}
           <Message>
             Don't have an account? <Link to="/register">Register</Link>
+          </Message>
+          <Message>
+            Created with the help of{" "}
+            <a
+              href="https://www.udemy.com/build-a-slack-chat-app-with-react-redux-and-firebase/"
+              target="blank"
+            >
+              Reed Barger's Udemy Course
+            </a>
           </Message>
         </Grid.Column>
       </Grid>

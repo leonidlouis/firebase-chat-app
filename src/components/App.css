@@ -33,3 +33,7 @@ body,
 .menu {
   padding-bottom: 2em;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}

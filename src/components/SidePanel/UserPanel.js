@@ -31,7 +31,12 @@ class UserPanel extends Component {
   ];
 
   handleSignout = () => {
-    firebase.auth().signOut();
+    firebase
+      .auth()
+      .signOut()
+      .then(() => {
+        this.props.history.push("/");
+      });
   };
 
   render() {
@@ -41,13 +46,10 @@ class UserPanel extends Component {
       <Grid style={{ background: "#4c3c4c" }}>
         <Grid.Column>
           <Grid.Row style={{ padding: "1.2em", margin: 0 }}>
-            {/* App Header */}
             <Header inverted floated="left" as="h2">
-              <Icon name="code" />
               <Header.Content>MockChat</Header.Content>
             </Header>
 
-            {/* User Dropdown  */}
             <Header style={{ padding: "0.25em" }} as="h4" inverted>
               <Dropdown
                 trigger={

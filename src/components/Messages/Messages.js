@@ -148,7 +148,7 @@ class Messages extends React.Component {
           isPrivateChannel={isPrivateChannel}
         />
 
-        <Segment clearing floated>
+        <Segment clearing>
           <Comment.Group className="messages">
             {searchTerm
               ? this.displayMessages(searchResults)

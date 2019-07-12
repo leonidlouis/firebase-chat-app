@@ -1,0 +1,15 @@
+{
+    "apps" : [{
+      "name": "mockchat",
+      "script": "server.js",
+      "exec_mode": "cluster",
+      "instances": 1,
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "150M",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 3005
+      }
+    }]
+}
