@@ -5,7 +5,7 @@
   "dependencies": {
     "emoji-mart": "^2.11.1",
     "express": "^4.17.1",
-    "firebase": "^6.2.4",
+    "firebase": "^10.9.0",
     "md5": "^2.2.1",
     "mime-types": "^2.1.24",
     "moment": "^2.24.0",
